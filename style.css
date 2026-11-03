@@ -24,7 +24,7 @@ main{
     align-items: center;
     gap:1rem;
 }
-#Text-contant{
+.Text-contant{
   text-align: center;
   width:min(40vw,60%);
   margin: 2rem;
@@ -41,7 +41,7 @@ main{
     color: var(--grey-400);
   }
 }
-#fourbox{
+.fourbox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ main{
   border-top: .3em solid var(--blue);
 }
 @media(orientation: portrait){
-    #fourbox{
+    .fourbox{
         display: flex;
         flex-direction: column;
 
